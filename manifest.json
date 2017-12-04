@@ -1,0 +1,16 @@
+{
+  "manifest_version": 2,
+
+  "name": "Easy Viz",
+  "description": "This extension is an attempt to allow the user to set up a dashboard for themselves using charts and internet data.",
+  "version": "0.0",
+
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "activeTab",
+    "storage"
+  ]
+}
